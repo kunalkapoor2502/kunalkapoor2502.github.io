@@ -74,7 +74,7 @@ body {
 .mb_parallax2_container {
   height: 60vh;
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 10vh;
   background-position: 50% bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -223,7 +223,7 @@ body {
 }
 
 .header-quote h1{
-  font-size: 350%;
+  font-size: 300%;
   font-weight: bold;
 }
 
