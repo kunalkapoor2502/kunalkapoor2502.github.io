@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#ietebackground{
+  background-repeat: no-repeat;
+  background-image: url(../img/index/bg1.png);
+  background-position: 50% bottom;
+  background-size: cover;
+}
+.ieteabout{
+  padding-top: 11vh;
+  padding-bottom: 11vh;
+  text-align: center;
+}
+.ieteabout hr{
+  margin-top: -1px;
+  width: 10rem;
+  border-top:1px solid black;
+}
+
+.mb_parallax_container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 25vh;
+  background-position: 50% bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mb_parallax_overlay {
+  margin: auto 4%;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+}
+
+
+#mb_parallax_one {
+  background-image: url(../img/index/introcircuit.svg);
+  background-color: #071136;
+}
+
+#mb_parallax_two {
+  background-image: url(../img/index/header.jpg);
+}
+
+#mb_parallax_three {
+  background-image: url(../img/index/vector.svg);
+  background-color: #071136;
+}
+
+.ietetext{
+  text-align: justify;
+  font-weight: bold;
+}
+
+#ietebackground .img-fluid{
+  width: 78%;
+}
+
+.ieteabout h1{
+  font-size: 350%;
+  font-weight: bold;
+}
+
+.padd{
+  padding-top: 5px; 
+}
+
+.mb_parallax2_container {
+  height: 60vh;
+  width: 100%;
+  padding-top: 15vh;
+  background-position: 50% bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mb_parallax2_overlay {
+ 
+  margin: auto 4%;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+}
+
+#parallax_one {
+  background-image: url(../img/index/student_forum.jpg);
+      background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+    position:relative;
+    background-size: cover;
+    z-index:120;
+}
+
+#parallax_one:after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+#parallax_two {
+  background-image: url(../img/index/contact.png);
+      background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+    position:relative;
+    background-size: cover;
+    z-index:120;
+}
+
+#parallax_two:after {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.card-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-icon{
+  font-size: 5rem;
+}
+
+.padd a{
+  font-weight: bold;
+}
+
+.card-margin{
+  padding-top: 10%;
+}
+
+.card-activities{
+  height: 20rem;
+  width: 20rem;
+}
+
+.card-teams{
+  height: 22rem;
+  width: 18rem;
+}
+
+.card-icon2{
+    font-size: 550%;
+}
+
+.footer-img{
+  width: 80%;
+}
+
+.footer-background{
+  background-color: black;
+}
+
+.footer-ietehead{
+  padding-top: 2rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.footer-ietepara{
+  color: #BEBEBE;
+  text-align: center;
+    padding-right: 5%;
+  padding-left:5%;
+}
+
+.footer-ietelink{
+  color: #BEBEBE;
+  text-align: center;
+}
+
+.footer-ietelink:hover{
+  color: cyan;
+  text-align: center;
+}
+
+.footer-hr{
+  width: 80%;
+  border-top: 1px solid #BEBEBE;
+}
+
+.footer-copyrights{
+  color: #BEBEBE;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.footer-copyrights a{
+  color: cyan;
+}
+
+.parallax-text{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.family-quote h2{
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.header-quote h1{
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.card-title{
+  font-weight: bold;
+}
