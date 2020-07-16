@@ -230,3 +230,9 @@ body {
 .card-title{
   font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .header3 {
+        display:none;
+    }
+  }
