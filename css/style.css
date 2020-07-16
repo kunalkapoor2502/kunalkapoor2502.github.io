@@ -113,7 +113,7 @@ body {
 }
 
 #parallax_two {
-  background-image: url(../img/index/contact.png);
+  background-image: url(../img/index/contact.PNG);
       background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -223,7 +223,7 @@ body {
 }
 
 .header-quote h1{
-  font-size: 400%;
+  font-size: 350%;
   font-weight: bold;
 }
 
